@@ -1,0 +1,231 @@
+# --- Dependencies ---
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# --- Package manager caches / debug logs ---
+.npm/
+.pnpm-store/
+.pnpm-debug.log*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# --- Logs & diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.json
+*.log.*
+
+# --- Runtime data / pids ---
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Env files (keep examples) ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.local.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+# --- Coverage ---
+coverage/
+*.lcov
+.nyc_output/
+.coverage/
+
+# --- Build outputs / caches ---
+dist/
+build/
+dist-ssr/
+*.local
+electron-dist/
+dist-electron/
+out/
+bin/
+.tmp/
+tmp/
+temp/
+.cache/
+.esbuild/
+.esbuild-cache/
+.parcel-cache/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.vite/
+.vite-inspect/
+
+# --- TypeScript ---
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# --- Common web frameworks ---
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+storybook-static/
+.angular/
+.docusaurus/
+.vercel/
+.netlify/
+.output/
+.turbo/
+
+# --- E2E / testing artifacts ---
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+coverage/
+.nyc_output/
+
+# --- Editors & IDEs ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.iml
+*.iws
+*.ipr
+.vs/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+
+# --- Mac ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# --- Linux ---
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# --- Node.js ---
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# --- Misc ---
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.der
+*.cer
+*.jks
+*.keystore
+
+# --- Uploaded Files ---
+uploaded_files/
+uploads/
+
+# --- Supabase ---
+.supabase/
+
+# --- Deno (for edge functions) ---
+deno.lock
+.deno/
+
+# --- Android development ---
+.android/
+.android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+.gradle
+local.properties
+proguard/
+*.iml
+*.hprof
+
+# --- Lock files (optional - uncomment if you want to ignore them) ---
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
