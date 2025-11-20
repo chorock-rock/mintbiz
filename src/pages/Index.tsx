@@ -345,7 +345,7 @@ const Index = () => {
               </div>
               <span className="text-2xl font-bold text-secondary">MINTBIZ</span>
             </div>
-            <p className="text-muted-foreground">© 2024 MintBiz. 비즈니스 계약 NFT 거래소</p>
+            <p className="text-muted-foreground">© 2025 MintBiz. 비즈니스 계약 NFT 거래소</p>
           </div>
         </div>
       </footer>
